@@ -8,3 +8,8 @@ entity Students {
         country   : String;
         class     : Integer;
 }
+
+entity School{
+    key SchoolId: UUID;
+    schoolName: String;
+}
